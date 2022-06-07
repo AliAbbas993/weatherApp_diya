@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  max-width: 350px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px #ecececec;
+  border-radius: 30px;
+}
+.add-city-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: calc(100vh - 30px);
+  background: #ececec;
+  border-radius: 30px;
+  overflow: hidden;
+  margin: 15px auto;
+}
+.add-city-block h3{
+  margin: 30px auto;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.add-city-block .add-city-field{
+  width: 100%;
+  padding: 0 15px;
+}
+.loading-img{
+  display: inline-block;
+  width: 300px;
+  margin: 0 auto;
+}
+.loading-img img{
+  width: 150px;
+  margin: 0 auto;
+}
+.weather-data-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: calc(100vh - 30px);
+  border-radius: 30px;
+  overflow: hidden;
+  margin: 15px auto;
+}
+.weather-data-block h3{
+  position: relative;
+  color: #000000;
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.weather-data-block h3 span{
+  cursor: pointer;
+  font-size: 15px;
+  position: absolute;
+  right: -20px;
+  top: 0px;
+  line-height: 1;
+  color: #210202;
+  border: 1px solid #210202;
+  border-radius: 5px;
+  padding: 2px;
+}
+.weather-data-block .temperature-data .cloud-img{
+  margin: 0;
+}
+.weather-data-block .temperature-data .cloud-img img{
+  height: 250px;
+}
+.weather-data-block .temperature-data .temperature .temp-value{
+  width: 100%;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 600;
+  color: #59b0ff;
+  line-height: 1;
+}
+.weather-data-block .temperature-data .temperature .temp-condition{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  color: #59b0ff;
+}
+.weather-data-block .temperature-minmax{
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.weather-data-block .temperature-minmax .temp{
+  width: 50%;
+}
+.weather-data-block .temperature-minmax .icon{
+  /* font-size: 5px; */
+}
+.weather-data-block .temperature-minmax .value{
+  font-size: 20px;
+  color: #000000;
+  margin: 10px auto;  
+  line-height: 1;
+}
+.weather-data-block .temperature-minmax .text{
+  /* font-size: 3px; */
+}
+.weather-data-block .green{
+  color: #03cf9f;    
+}
+.weather-data-block .red{
+  color: #e44b4b;    
+}
